@@ -1,0 +1,197 @@
+body{
+
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size:3.0rem;
+  line-height: 1.5;
+  color:white;
+}
+
+.text-align-center{
+  text-align: center;
+}
+
+#part-1, #part-3, #part-5{
+  background-color: #ff4c68;
+  color:white;
+}
+
+#part-2, #part-4, #part-6{
+  background-color: #white;
+}
+
+#part-1{
+  margin-bottom: 0;
+  position: relative;
+}
+
+.nav-padding-margin{
+  margin: 0 0 100px 0;
+  padding:0;
+
+}
+
+.mainText{
+  font-size:2.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.nav-custom{
+  font-size: 1.5rem;
+  position: relative;
+  margin: 0 30px 50px 30px;
+  padding:0;
+}
+
+.phone-sleeve{
+  background-color: white;
+  position: absolute;
+  bottom:0;
+  height: 320px;
+  width: 100%;
+  z-index: 10;
+}
+
+.rotated {
+  transform: rotate(30deg); /* Equal to rotateZ(45deg) */
+  width:60%;
+  margin-left: 50px;
+}
+
+/* download buttons */
+.but-gin{
+  margin:5% 3% 5% 0;
+}
+
+.part-2-symbol-styling{
+  font-size:90px;
+  color:#ef8172;
+  margin-bottom: 20px;
+}
+
+.part-2-symbol-styling:hover{
+  font-size:90px;
+}
+
+/* part 2 */
+.part-2-text{
+  color:gray;
+}
+
+.part-2-main{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 4;
+}
+
+.pg2-pad20-bottom{
+  padding-bottom: 20%;
+}
+
+/* part 3 */
+
+.pg3{
+  padding-top: 400px;
+}
+
+.pebbles-pic-adjustments{
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+/* testimonial section */
+#part-3{
+  background-color: #ef8172;
+  padding: 7% 15%;
+  text-align: center;
+font-family: "Montserrat";
+font-size: 1.5rem;
+}
+
+
+/* part 4 */
+
+#part-3{
+  padding-bottom: 3%;
+  text-align:center;
+}
+
+.part-3_logo{
+  width:50%;
+}
+
+.part-3_right15_relative{
+  position: relative;
+  left:15%;
+}
+
+ .posRelative{
+  position: relative;
+ }
+
+ .background-Color{
+   background-color: gray;
+ }
+
+ .North-Margin{
+   Margin:5% 0;
+ }
+
+/* part 5 */
+
+#part-5{
+  margin:5% 0 0 0;
+  text-align: center;
+}
+
+.card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+}
+
+@media (max-width: 1028px){
+
+#part-1{
+  padding:0 0 300px 0;
+}
+
+  .dogPicture{
+    position: relative;
+    z-index: 50;
+
+  }
+
+  .rotated {
+    transform: rotate(0deg); /* Equal to rotateZ(45deg) */
+    width:60%;
+    margin-left: 50px;
+  }
+
+  .phone-sleeve{
+    position: absolute;
+    bottom:0;
+    height: 320px;
+    width: 100%;
+    z-index: -5;
+
+  }
+}
+
+.pg5-a{
+  font-size: 3.5rem;
+}
+
+.contact-button{
+  margin:30px 10px;
+}
